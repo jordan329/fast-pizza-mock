@@ -15,11 +15,14 @@ class Zip extends Component {
 
     return (
       <div>
+        <form>
+          <h1>Enter Zip</h1>
           <input name="zip" onChange={this.change}></input>
           <br />
           <Link to="/list">
             <button>List</button>
           </Link>
+        </form>
       </div>
     );
   }
